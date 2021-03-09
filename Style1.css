@@ -1,0 +1,17 @@
+html {
+    user-select: none;
+    background-color: rgb(150, 219, 150);
+    background-image: url(grass.jpg);
+}
+.gameField {
+    border-collapse: collapse;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    width: 80%;
+    height: 80%;
+    border: 2px solid rgb(0, 255, 0);
+    background-color: rgb(255, 255, 255);
+}
